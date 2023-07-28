@@ -1,0 +1,72 @@
+#photopage{
+    height: 100vh;
+}
+#photoname{
+    position: sticky;
+    font-size: 2rem;
+    
+}
+#back{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+#back button{
+    font-size: 30px;
+    font-family: 'Rajdhani', sans-serif;
+    background-color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+#back button:hover{
+    animation: borderani 1s ease-in-out;
+}
+@keyframes borderani{
+    0% , 10%{
+        border-top: black 1px solid;
+    }
+    10%, 20%{
+        border-top: white 1px solid;
+    }
+    20%, 30%{
+        border-left: black 1px solid;;
+    }
+    30% , 40%{
+        border-left: white 1px solid;
+    }
+    40%, 50%{
+        border-bottom: black 1px solid;
+    }50% , 60%{
+        border-bottom: white 1px solid;
+    }
+    60%, 70%{
+        border-right: black 1px solid;
+    }70% , 80%{
+        border-right: white 1px solid;
+    }
+    80%, 90%{
+        border: black 1px solid;
+    }90% , 100%{
+        border: white 1px solid;
+    }
+    
+}
+#photo{
+    margin-top: 40px;
+
+}
+#photo img{
+    height: 500px;
+    width: 500px;
+}
+#desc{
+    position: relative;
+    left: 500px;
+    bottom: 500px;
+    max-height: 800px;
+    max-width: 800px;
+}
+#desc h1{
+    text-align: justify;
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration-line: none;
+}

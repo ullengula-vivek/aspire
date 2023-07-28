@@ -1,0 +1,41 @@
+#contact{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Rajadhani',sans-serif;
+    margin-left: 65vh;
+    padding-top: 80px;
+}
+#insta,#link{
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: none;
+    font-weight: 200;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 1.5rem;
+    color: black;
+}
+#insta:hover{
+        background: #f09433; 
+        background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+        background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+        background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+        color:transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+}
+#link:hover{
+    color:#04669A;
+}
+#sign{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: -15px 5px 20px #ced0d3;
+    color: ;
+    letter-spacing: -0.05em;
+    user-select: none;
+    text-transform: uppercase;
+    transition: all 0.25s ease-out;
+}

@@ -1,0 +1,23 @@
+
+/* PhotoGrid Component */
+
+#photogrid{
+    background-color: white;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 10px;
+    row-gap: 50px;
+    justify-content: space-evenly;
+    overflow:hidden;
+  }
+  #photogrid img{
+    height: 320px;
+    width: 320px;
+    transition: transform 0.25s;
+  }
+  
+  #photogrid img:hover{
+    transform:scale(1.1)
+  }
+  
